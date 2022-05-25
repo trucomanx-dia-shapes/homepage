@@ -15,7 +15,7 @@ include '../include/header-sub.php';
 <div class="header libgradient">
 	<h2>dia-simplemusic</h2>
 	<p>
-		Download the latex package of dia-simplemusic from
+		Download the diashape dia-simplemusic from
 		<a href="https://sourceforge.net/p/diashapes-others/dia-simplemusic/ci/main/tree/">
 		this link:<br>
 		<div class="whiteblock">

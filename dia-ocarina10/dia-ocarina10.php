@@ -15,7 +15,7 @@ include '../include/header-sub.php';
 <div class="header libgradient">
 	<h2>dia-ocarina10</h2>
 	<p>
-		Download the latex package of dia-ocarina10 from
+		Download the diashape dia-ocarina10 from
 		<a href="https://sourceforge.net/p/diashapes-others/dia-ocarina10/ci/main/tree/">
 		this link:<br>
 		<div class="whiteblock">
