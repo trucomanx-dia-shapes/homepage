@@ -16,10 +16,10 @@ include '../include/header-sub.php';
 	<h2>dia-ocarina10plus</h2>
 	<p>
 		Download the diashape dia-ocarina10plus from
-		<a href="https://sourceforge.net/p/diashapes-others/dia-ocarina10plus/ci/main/tree/">
+		<a href="https://sourceforge.net/p/diashapes-others/dia-ocarina10plus/ci/master/tree/">
 		this link:<br>
 		<div class="whiteblock">
-		<img src="https://sourceforge.net/p/diashapes-others/dia-ocarina10plus/ci/main/tree/screenshot.png?format=raw"/>
+		<img src="https://sourceforge.net/p/diashapes-others/dia-ocarina10plus/ci/master/tree/screenshot.png?format=raw"/>
 		</div>
 		</a> 
 	</p>
