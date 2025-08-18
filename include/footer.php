@@ -5,7 +5,7 @@
 		<h3>Contact</h3>
 		<div class="box-content">
 		  <ul class="services">
-			<li><a href="https://savannah.nongnu.org/users/trucomanx"><img src="../imagenes/mail.png" width=20>E-mail</a></li>
+			<li><a href="https://savannah.nongnu.org/users/trucomanx"><img src="imagenes/mail.png" width=20>E-mail</a></li>
 		  </ul>
 		</div>       
 	</div>
