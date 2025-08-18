@@ -2,9 +2,11 @@
 <div class="content">
 
 	<div class="box">
-		<h3>Que es el software libre?</h3>
+		<h3>Contact</h3>
 		<div class="box-content">
-		<iframe width="180" height="150" src="https://www.youtube.com/embed/FvLJ2JotttM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		  <ul class="services">
+			<li><a href="https://savannah.nongnu.org/users/trucomanx"><img src="../imagenes/mail.png" width=20>E-mail</a></li>
+		  </ul>
 		</div>       
 	</div>
   
@@ -12,10 +14,10 @@
 		<h3>Social</h3>
 		<div class="box-content">
 		  <ul class="services">
-			<li><a href="https://gnusocial.net/trucomanx"><img src="imagenes/gnusocial.png">GnuSocial</a></li>
+			<li><a href="https://x.com/trucomanx"><img src="imagenes/x.svg" width=20>X</a></li>
 		  </ul>
 		  <ul class="services">
-			<li><a href="https://diasp.org/people/68e40bb7f3f6d792"><img src="imagenes/diaspora+logo.png">Diaspora</a></li>
+			<li><a href="https://trucomanx.wordpress.com/"><img src="imagenes/wordpress.png" width=20>Blog</a></li>
 		  </ul>
 		</div>
 	</div>      
