@@ -1,15 +1,25 @@
 <html>
 <head>
-	<?php 
-	include 'include/head.php';
-	?>
+    <!-- Substitua o PHP por um fetch para o head -->
+    <script>
+        fetch('include/head.html')
+            .then(response => response.text())
+            .then(data => {
+                document.head.innerHTML += data;
+            });
+    </script>
 </head>
 <body>
 
-	<?php
-	ini_set('default_charset','UTF8');
-	include 'include/header.php';
-	?>
+    <!-- Header carregado via JS -->
+    <div id="header-container"></div>
+    <script>
+        fetch('include/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-container').innerHTML = data;
+            });
+    </script>
 
 	<div class="header gradient">
 	<div class="promo-area">
@@ -27,7 +37,7 @@
 	<div class="header libgradient">
 	
 	<!-- *********************************************************************** -->	
-	<div class="degradeblock libblock"><a target="_blank" href="dia-simplemusic/dia-simplemusic.php">
+	<div class="degradeblock libblock"><a target="_blank" href="dia-simplemusic/dia-simplemusic.html">
 		<div class="itemtitle">
 		<b>dia-simplemusic</b>
 		</div>
@@ -37,7 +47,7 @@
 		</a>
 	</div>
 	<!-- *********************************************************************** -->	
-	<div class="degradeblock libblock"><a target="_blank" href="dia-ocarina10plus/dia-ocarina10plus.php">
+	<div class="degradeblock libblock"><a target="_blank" href="dia-ocarina10plus/dia-ocarina10plus.html">
 		<div class="itemtitle">
 		<b>dia-ocarina10plus</b>
 		</div>
@@ -47,7 +57,7 @@
 		</a>
 	</div>
 	<!-- *********************************************************************** -->	
-	<div class="degradeblock libblock"><a target="_blank" href="dia-ocarina10/dia-ocarina10.php">
+	<div class="degradeblock libblock"><a target="_blank" href="dia-ocarina10/dia-ocarina10.html">
 		<div class="itemtitle">
 		<b>dia-ocarina10</b>
 		</div>
@@ -57,7 +67,7 @@
 		</a>
 	</div>
 	<!-- *********************************************************************** -->	
-	<div class="degradeblock libblock"><a target="_blank" href="dia-ocarina6plus/dia-ocarina6plus.php">
+	<div class="degradeblock libblock"><a target="_blank" href="dia-ocarina6plus/dia-ocarina6plus.html">
 		<div class="itemtitle">
 		<b>dia-ocarina6plus</b>
 		</div>
@@ -67,7 +77,7 @@
 		</a>
 	</div>
 	<!-- *********************************************************************** -->	
-	<div class="degradeblock libblock"><a target="_blank" href="dia-ocarina6/dia-ocarina6.php">
+	<div class="degradeblock libblock"><a target="_blank" href="dia-ocarina6/dia-ocarina6.html">
 		<div class="itemtitle">
 		<b>dia-ocarina6</b>
 		</div>
@@ -81,9 +91,15 @@
 	
 	</div>
 
-	<?php 
-	include 'include/footer.php';
-	?>
+    <!-- Footer carregado via JS -->
+    <div id="footer-container"></div>
+    <script>
+        fetch('include/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            });
+    </script>
 
 </body>
 </html>

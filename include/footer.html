@@ -25,22 +25,9 @@
 	<div class="box">
 		<h3>News</h3>
 		<div class="box-content">
-			<?php
-			$rss_feed = simplexml_load_file("https://sourceforge.net/p/diashapes-others/activity/feed");
-			if(!empty($rss_feed)) 
-			{
-				$i=0;
-				foreach ($rss_feed->channel->item as $feed_item) 
-				{
-					if($i>=4) break;
-					?>
-					<div><a class="feed_title" href="<?php echo $feed_item->link; ?>"><b><?php echo $feed_item->title; ?></b></a></div>
-					<div><?php echo implode(' ', array_slice(explode(' ', $feed_item->description), 0, 14)) . "..."; ?></div>
-					<?php		
-					$i++;	
-				}
-			}
-			?>
+		  <ul class="services">
+			<li><a href="https://sourceforge.net/p/diashapes-others/activity/feed"><img src="imagenes/feed-icon.svg" width=20>Feed</a></li>
+		  </ul>
 		</div>
 	</div>
 

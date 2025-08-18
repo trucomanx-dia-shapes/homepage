@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Substitua o PHP por um fetch para o head -->
+    <script>
+        fetch('../include/head-sub.html')
+            .then(response => response.text())
+            .then(data => {
+                document.head.innerHTML += data;
+            });
+    </script>
+</head>
+<body>
+
+    <!-- Header carregado via JS -->
+    <div id="header-container"></div>
+    <script>
+        fetch('../include/header-sub.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-container').innerHTML = data;
+            });
+    </script>
+
+    <!-- Seu conteúdo principal aqui -->
+    <div class="header libgradient">
+        <h2>dia-ocarina6</h2>
+        <p>
+            Download the diashape dia-ocarina6 from
+            <a href="https://sourceforge.net/p/diashapes-others/dia-ocarina6/ci/master/tree/">
+                this link:<br>
+                <div class="whiteblock">
+                    <img src="https://sourceforge.net/p/diashapes-others/dia-ocarina6/ci/master/tree/screenshot.png?format=raw"/>
+                </div>
+            </a>
+        </p>
+    </div>
+
+    <!-- Footer carregado via JS -->
+    <div id="footer-container"></div>
+    <script>
+        fetch('../include/footer-sub.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            });
+    </script>
+</body>
+</html>
